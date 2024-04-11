@@ -1,10 +1,10 @@
 <template>
         <div class="flex mb-20 last:mb-0">
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="lg" color="purple" type="bg" :icon='true'/>
-                <Btn size="lg" color="hint_text" type="bg" :icon='true'/>
-                <Btn size="lg" color="border" type="bg" :icon='true'/>
-                <Btn size="lg" color="disabled" type="bg" :icon='true'/>
+                <VBtn size="lg" type="bg" icon='file'/>
+                <VBtn size="lg" color="hint_text" type="bg" icon='file'/>
+                <VBtn size="lg" color="border" type="bg" icon='file'/>
+                <VBtn size="lg" color="disabled" type="bg" icon='file'/>
             </div>
             <!-- <div class="mb-8 w-1/3 last:mb-0">
                 <div class="text-disabled"></div>
@@ -13,76 +13,116 @@
                 <div class="text-purple"></div>
             </div> -->
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="lg" color="purple" type="border" :icon='true'/>
-                <Btn size="lg" color="hint_text" type="border" :icon='true'/>
-                <Btn size="lg" color="border" type="border" :icon='true'/>
-                <Btn size="lg" color="disabled" type="border" :icon='true'/>
+                <VBtn size="lg" type="outline" icon='file'/>
+                <VBtn size="lg" color="hint_text" type="outline" icon='file'/>
+                <VBtn size="lg" color="border" type="outline" icon='file'/>
+                <VBtn size="lg" color="disabled" type="outline" icon='file'/>
             </div>
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="lg" color="purple" type="text" :icon='true'/>
-                <Btn size="lg" color="hint_text" type="text" :icon='true'/>
-                <Btn size="lg" color="border" type="text" :icon='true'/>
-                <Btn size="lg" color="disabled" type="text" :icon='true'/>
-            </div>
-        </div>
-        <div class="flex mb-20 last:mb-0">
-            <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="md" color="purple" type="bg" :icon='true'/>
-                <Btn size="md" color="hint_text" type="bg" :icon='true'/>
-                <Btn size="md" color="border" type="bg" :icon='true'/>
-                <Btn size="md" color="disabled" type="bg" :icon='true'/>
-            </div>
-            <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="md" color="purple" type="border" :icon='true'/>
-                <Btn size="md" color="hint_text" type="border" :icon='true'/>
-                <Btn size="md" color="border" type="border" :icon='true'/>
-                <Btn size="md" color="disabled" type="border" :icon='true'/>
-            </div>
-            <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="md" color="purple" type="text" :icon='true'/>
-                <Btn size="md" color="hint_text" type="text" :icon='true'/>
-                <Btn size="md" color="border" type="text" :icon='true'/>
-                <Btn size="md" color="disabled" type="text" :icon='true'/>
+                <VBtn size="lg" type="text" icon='file'/>
+                <VBtn size="lg" color="hint_text" type="text" icon='file'/>
+                <VBtn size="lg" color="border" type="text" icon='file'/>
+                <VBtn size="lg" color="disabled" type="text" icon='file'/>
             </div>
         </div>
         <div class="flex mb-20 last:mb-0">
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="bg" :icon='true'/>
-                <Btn size="sm" color="hint_text" type="bg" :icon='true'/>
-                <Btn size="sm" color="border" type="bg" :icon='true'/>
-                <Btn size="sm" color="disabled" type="bg" :icon='true'/>
+                <VBtn type="bg" icon='file'/>
+                <VBtn color="hint_text" type="bg" icon='file'/>
+                <VBtn color="border" type="bg" icon='file'/>
+                <VBtn color="disabled" type="bg" icon='file'/>
             </div>
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="border" :icon='true'/>
-                <Btn size="sm" color="hint_text" type="border" :icon='true'/>
-                <Btn size="sm" color="border" type="border" :icon='true'/>
-                <Btn size="sm" color="disabled" type="border" :icon='true'/>
+                <VBtn type="outline" icon='file'/>
+                <VBtn color="hint_text" type="outline" icon='file'/>
+                <VBtn color="border" type="outline" icon='file'/>
+                <VBtn color="disabled" type="outline" icon='file'/>
             </div>
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="text" :icon='true'/>
-                <Btn size="sm" color="hint_text" type="text" :icon='true'/>
-                <Btn size="sm" color="border" type="text" :icon='true'/>
-                <Btn size="sm" color="disabled" type="text" :icon='true'/>
+                <VBtn type="text" icon='file'/>
+                <VBtn color="hint_text" type="text" icon='file'/>
+                <VBtn color="border" type="text" icon='file'/>
+                <VBtn color="disabled" type="text" icon='file'/>
             </div>
         </div>
         <div class="flex mb-20 last:mb-0">
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="bg" :icon="false"/>
-                <Btn size="sm" color="hint_text" type="bg" :icon="false"/>
-                <Btn size="sm" color="border" type="bg" :icon="false"/>
-                <Btn size="sm" color="disabled" type="bg" :icon="false"/>
+                <VBtn size="sm" type="bg" icon='file'/>
+                <VBtn size="sm" color="hint_text" type="bg" icon='file'/>
+                <VBtn size="sm" color="border" type="bg" icon='file'/>
+                <VBtn size="sm" color="disabled" type="bg" icon='file'/>
             </div>
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="border" :icon="false"/>
-                <Btn size="sm" color="hint_text" type="border" :icon="false"/>
-                <Btn size="sm" color="border" type="border" :icon="false"/>
-                <Btn size="sm" color="disabled" type="border" :icon="false"/>
+                <VBtn size="sm" type="outline" icon='file'/>
+                <VBtn size="sm" color="hint_text" type="outline" icon='file'/>
+                <VBtn size="sm" color="border" type="outline" icon='file'/>
+                <VBtn size="sm" color="disabled" type="outline" icon='file'/>
             </div>
             <div class="mb-8 w-1/3 last:mb-0">
-                <Btn size="sm" color="purple" type="text" :icon="false"/>
-                <Btn size="sm" color="hint_text" type="text" :icon="false"/>
-                <Btn size="sm" color="border" type="text" :icon="false"/>
-                <Btn size="sm" color="disabled" type="text" :icon="false"/>
+                <VBtn size="sm" type="text" icon='file'/>
+                <VBtn size="sm" color="hint_text" type="text" icon='file'/>
+                <VBtn size="sm" color="border" type="text" icon='file'/>
+                <VBtn size="sm" color="disabled" type="text" icon='file'/>
+            </div>
+        </div>
+        <div class="flex mb-20 last:mb-0">
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="bg" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="hint_text" type="bg" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="border" type="bg" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="disabled" type="bg" icon="file" iconPlace="left"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="outline" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="hint_text" type="outline" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="border" type="outline" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="disabled" type="outline" icon="file" iconPlace="left"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="text" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="hint_text" type="text" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="border" type="text" icon="file" iconPlace="left"/>
+                <VBtn size="sm" color="disabled" type="text" icon="file" iconPlace="left"/>
+            </div>
+        </div>
+        <div class="flex mb-20 last:mb-0">
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="bg" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="hint_text" type="bg" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="border" type="bg" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="disabled" type="bg" icon="file" :iconPlace="true"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="outline" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="hint_text" type="outline" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="border" type="outline" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="disabled" type="outline" icon="file" :iconPlace="true"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="text" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="hint_text" type="text" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="border" type="text" icon="file" :iconPlace="true"/>
+                <VBtn size="sm" color="disabled" type="text" icon="file" :iconPlace="true"/>
+            </div>
+        </div>
+        <div class="flex mb-20 last:mb-0">
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="bg"/>
+                <VBtn size="sm" color="hint_text" type="bg"/>
+                <VBtn size="sm" color="border" type="bg"/>
+                <VBtn size="sm" color="disabled" type="bg"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="outline"/>
+                <VBtn size="sm" color="hint_text" type="outline"/>
+                <VBtn size="sm" color="border" type="outline"/>
+                <VBtn size="sm" color="disabled" type="outline"/>
+            </div>
+            <div class="mb-8 w-1/3 last:mb-0">
+                <VBtn size="sm" type="text"/>
+                <VBtn size="sm" color="hint_text" type="text"/>
+                <VBtn size="sm" color="border" type="text"/>
+                <VBtn size="sm" color="disabled" type="text"/>
             </div>
         </div>
 </template>

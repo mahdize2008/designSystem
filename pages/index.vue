@@ -1,7 +1,5 @@
 <template>
-    <h1>
-        import moduleName from 'module'import moduleName from 'module'import moduleName from 'module'import moduleName from 'module'import moduleName from 'module'import moduleName from 'module'import moduleName from 'module';
-    </h1>
+    wellcome
 </template>
 <style>
 h1{

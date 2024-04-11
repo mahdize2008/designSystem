@@ -20,6 +20,7 @@ module.exports = {
       center: true,
     },
     colors:{
+      transparent:'transparent',
       white:'#FFFFFF',
       black:'#1A141F',
       purple:'#9D3FE7',
@@ -37,13 +38,6 @@ module.exports = {
     backgroundImage: {
       gradient: "linear-gradient(159.13deg, #9D3FE7 -24.13%, #602093 132.21%)",
     },
-    borderWidth: {
-      DEFAULT: '1px',
-      sm: '4',
-      md: '8px',
-      lg: '12px',
-      xl: '24px',
-    },
     boxShadow: {
       'xs': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
     },
@@ -53,7 +47,7 @@ module.exports = {
       xs: '12px',
       '2sm': '13px',
       sm: '14px',
-      '2base': '15px',
+      'sm-plus': '15px',
       base: '16px',
       md: '18px',
       lg: '20px',
