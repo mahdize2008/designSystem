@@ -25,6 +25,7 @@ module.exports = {
       black:'#1A141F',
       purple:'#9D3FE7',
       hint_text:'#4B3A5A',
+      'natural':'#333333',
       border:'#ABA7AF',
       disabled:'#D4D2D5',
       spacer:'#D9D1E0',
