@@ -1,12 +1,27 @@
-@import '~/assets/css/generic/font.css';
-@import '~/assets/css/generic/font-icon.css';
+/* GENERIC */
+@import "generic/font.css";
+@import "generic/font-icon.css";
+
+
+@import "section/navigation.css";
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
+    html , body  {
+        @apply font-["googleSans"] overflow-x-hidden text-left;
+        direction: ltr;
+    }
     body{
-        @apply font-['poppins'];
+        @apply relative
+    }
+    button {
+        @apply cursor-pointer;
+    }
+    .mb-between-section{
+        @apply !mb-11
     }
 }

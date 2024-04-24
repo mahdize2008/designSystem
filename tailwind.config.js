@@ -12,41 +12,58 @@ module.exports = {
     screens: {
       'sm': '576px',
       'md': '768px',
-      // 'lg': '992px',
-      // 'xl': '1200px',
+      'lg': '992px',
+      'xl': '1200px',
+      '2xl': '1312px',
+    },
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
     },
     container: {
       padding: '1rem',
       center: true,
     },
-    colors:{
-      transparent:'transparent',
-      white:'#FFFFFF',
-      black:'#1A141F',
-      purple:'#9D3FE7',
-      hint_text:'#4B3A5A',
-      'natural':'#333333',
-      border:'#ABA7AF',
-      disabled:'#D4D2D5',
-      spacer:'#D9D1E0',
-      spacer_light:'#E5E0EB',
-      bg_light_grey:'#F5F3F7',
-      Error:'#FF9500',
-      Attention:'#D51A52',
-      Approval:'#00B998',
-      Link:'#0F0BAB',
-    },
-    backgroundImage: {
-      gradient: "linear-gradient(159.13deg, #9D3FE7 -24.13%, #602093 132.21%)",
-    },
-    boxShadow: {
-      'xs': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+    colors: {
+      white: '#ffffff',
+      transparent: 'transparent',
+      black: '#000',
+
+
+
+
+      primary: '#01875f',
+      'primary-dark': '#056449',
+      // 'primary-lighter': '#5f6368',
+
+      secondary:'#98d4e9',
+      brown:'#c8968f',
+      
+      dark: '#202124',
+      'dark-alpha': '#5f6368',
+      'dark-beta': '#98a5ac',
+      'dark-tetha':'#3c4043',
+      darker:'#17212f',
+
+      // 'dark-tetha': '#121212',
+      // 'dark-gamma': '#1c1c1c',
+      // 'primary-dark': '#201e1b',
+
+
+      // light: '#747474',
+      // lighter: '#a2a2a2',
     },
     fontSize: {
-      '3xs': '8px',
-      '2xs': '10px',
+      '4xs': '8px',
+      '3xs': '10px',
+      '2xs': '11px',
       xs: '12px',
-      '2sm': '13px',
+      'xs-plus': '13px',
       sm: '14px',
       'sm-plus': '15px',
       base: '16px',
@@ -69,11 +86,11 @@ module.exports = {
       '15xl': '50px',
       '20xl': '60px',
     },
+
     fontWeight: {
       thin: '100',
       extralight: '200',
       light: '300',
-      normal: '400',
       medium: '500',
       semibold: '600',
       bold: '700',
@@ -81,7 +98,12 @@ module.exports = {
       black: '800',
       extrablack: '900',
     },
-    extend: {},
+    boxShadow: {
+      'xl': '0px 20px 100px 0px rgba(179, 144, 99, 0.3)',
+      'sm':'7.66px 6.428px 100px 0px rgba(0, 0, 0, 0.15)',
+      'navigation':'0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15)'
+    }
+    
   },
   plugins: [],
 }

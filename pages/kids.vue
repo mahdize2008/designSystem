@@ -1,6 +1,4 @@
-<script setup>
-navigateTo('/games/phone')
-</script>
+
 <template>
     
 </template>

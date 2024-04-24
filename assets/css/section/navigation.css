@@ -1,0 +1,15 @@
+.btn-navigation{
+    @apply shadow-navigation hidden absolute top-1/2 -translate-y-1/2 cursor-pointer bg-white text-dark-tetha items-center justify-center z-10 w-14 h-14 rounded-full
+}
+.btn-navigation i{
+    @apply text-dark-tetha font-bold
+}
+.prev-btn{
+    @apply !left-0
+}
+.next-btn{
+    @apply !right-0
+}
+.swipers:hover .btn-navigation{
+    @apply flex
+}

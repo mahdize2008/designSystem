@@ -1,0 +1,47 @@
+{
+  "products": [
+    {
+      "gradient":"secondary",
+        "brand": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq=s16-rw",
+      "description": "FARLIGHT",
+      "id": 0,
+      "imageSrc": "https://play-lh.googleusercontent.com/ijuEVTrpST3BNxwYdwTGgduJ-Lj6zzDUjtNGpqxPWFpiOKtgL86tJXjLsrNKYL3SRStgF5V1QQ=w648-h364-rw",
+      "light": true,
+      "logo": "https://play-lh.googleusercontent.com/R3uPV6IlI_xkiqw98gSo7RFJ4UL4i7z-su3AYcCNSU-valWSVHoewAG-fkpp6BVMB2oy=s64-rw",
+      "name": "AFK Journey",
+      "title": "Find your destiny and explore this ethereal fantasy RPG",
+      "type": "Now available"
+    },
+    {
+      "gradient":"brown",
+        "id": 1,
+      "imageSrc": "https://play-lh.googleusercontent.com/B6QSPJgbVFLZURRSG8cayPeatUWXcPGLydBs6cB0QAvdGaouN82sXgKuzg_RsElpFIJKVFUS6_k=w648-h364-rw",
+      "light": true,
+      "subtitle": "Battle big scary beasts",
+      "title": "Massively fun monster games",
+      "type": "From the editors"
+    },
+    {
+      "gradient":"darker",
+        "brand": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=s16-rw",
+      "description": "FARLIGHT",
+      "id": 2,
+      "imageSrc": "https://play-lh.googleusercontent.com/0YXD--VcZv-iJs-sabpTjE-7F_bPXAWCtuZn8r96QL1tDUk1TwHhU0EAlVQ0NFVNaQ=w648-h364-rw",
+      "light": false,
+      "logo": "https://play-lh.googleusercontent.com/LPxkKYfrkgGVJnbpHjPtwkIKZ0weG7KPvcLznyL8YnFkpWvCE4HLb96DF7TRzoAtnu0l=s64-rw",
+      "name": "AFK Journey",
+      "subtitle": "Check out these helpful videos",
+      "title": "Uplevel your Roblox skills with these handy tips",
+      "type": "From the editors"
+    },
+    {
+      "gradient":"dark",
+        "id": 3,
+      "imageSrc": "https://i.ytimg.com/vi/ylcUayWZ9NE/maxresdefault.jpg",
+      "light": false,
+      "subtitle": "5 things you need to know",
+      "title": "Drop into Call of Duty: Warzone Mobile",
+      "type": "Update available"
+    }
+  ]
+}
