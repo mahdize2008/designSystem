@@ -23,7 +23,6 @@ async function filterGames() {
 }
 
 
-
 onMounted(() => {
   filterGames();
 });
@@ -32,7 +31,7 @@ function filter(e) {
   let filter = e.target.parentElement.dataset.filter;
   filterTabActive.value = filter;
   filterGames();
-  number.value=0
+  number.value=1
 }
 
 let showVideo = ref(false);

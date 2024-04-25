@@ -49,6 +49,7 @@ module.exports = {
       'dark-beta': '#98a5ac',
       'dark-tetha':'#3c4043',
       darker:'#17212f',
+      'darker-beta':'#181818',
 
       // 'dark-tetha': '#121212',
       // 'dark-gamma': '#1c1c1c',

@@ -6,7 +6,7 @@ const { subtitle, star, img , logo , video } = defineProps({
   },
   star: {
     type: Number,
-    default: 4.5,
+    default: 0,
   },
   logo:{
     type:String,

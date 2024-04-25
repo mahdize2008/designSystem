@@ -18,23 +18,23 @@ const {
   },
   type: {
     type: String,
-    default: "Now available",
+    default: "",
   },
   imageSrc: {
     type: String,
-    default: "~/assets/img/p-1.webp",
+    default: "",
   },
   name: {
     type: String,
-    default: "AFK Journey",
+    default: "",
   },
   description: {
     type: String,
-    default: "FARLIGHT",
+    default: "",
   },
   brand: {
     type: String,
-    default: "~/assets/img/picture-1.webp",
+    default: "",
   },
   logo: {
     type: String,
@@ -46,7 +46,7 @@ const {
   },
   gradient: {
     type: String,
-    default: "secondary",
+    default: "",
   },
   video: {
     type: String,
