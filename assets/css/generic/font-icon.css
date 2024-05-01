@@ -25,53 +25,50 @@
 }
 
 
-.icon-star:before {
-  content: "\e923";
-}
-.icon-logo:before {
-  content: "\e922";
-}
-.icon-earth:before {
+.icon-home:before {
   content: "\e900";
 }
-.icon-search:before {
+.icon-instagram:before {
   content: "\e901";
 }
-.icon-grid:before {
+.icon-apps:before {
   content: "\e902";
 }
-.icon-instagram:before {
+.icon-right:before {
   content: "\e903";
 }
-.icon-twitter:before {
+.icon-search:before {
   content: "\e904";
 }
-.icon-youtube:before {
+.icon-view:before {
   content: "\e905";
+}
+.icon-star1:before {
+  content: "\e907";
+}
+.icon-trophy:before {
+  content: "\e908";
+}
+.icon-x:before {
+  content: "\e909";
+}
+.icon-youtube:before {
+  content: "\e90a";
+}
+.icon-down:before {
+  content: "\e90b";
+}
+.icon-editorial:before {
+  content: "\e90c";
+}
+.icon-facebook:before {
+  content: "\e90d";
+}
+.icon-game:before {
+  content: "\e910";
 }
 .icon-telegram:before {
   content: "\e906";
-}
-.icon-plus:before {
-  content: "\e907";
-}
-.icon-download:before {
-  content: "\e908";
-}
-.icon-play:before {
-  content: "\e909";
-}
-.icon-phone-call:before {
-  content: "\e90a";
-}
-.icon-email:before {
-  content: "\e90b";
-}
-.icon-home:before {
-  content: "\e90c";
-}
-.icon-down:before {
-  content: "\e90d";
 }
 .icon-left:before {
   content: "\e90e";
@@ -79,57 +76,15 @@
 .icon-up:before {
   content: "\e90f";
 }
-.icon-right:before {
-  content: "\e910";
-}
-.icon-right-chevron:before {
-  content: "\e911";
-}
-.icon-down-chevron:before {
-  content: "\e912";
-}
-.icon-up-chevron:before {
-  content: "\e913";
-}
-.icon-left-chevron:before {
+.icon-more:before {
   content: "\e914";
 }
-.icon-ground:before {
-  content: "\e915";
-}
-.icon-uv:before {
-  content: "\e916";
-}
-.icon-crop-tool:before {
-  content: "\e917";
-}
-.icon-bending:before {
-  content: "\e918";
-}
 .icon-right-arrow:before {
-  content: "\e919";
-}
-.icon-down-arrow:before {
-  content: "\e91a";
-}
-.icon-up-arrow:before {
-  content: "\e91b";
+  content: "\e911";
 }
 .icon-left-arrow:before {
-  content: "\e91c";
+  content: "\e912";
 }
-.icon-down-left:before {
-  content: "\e91d";
-}
-.icon-down-right:before {
-  content: "\e91e";
-}
-.icon-call:before {
-  content: "\e91f";
-}
-.icon-clock:before {
-  content: "\e920";
-}
-.icon-location:before {
-  content: "\e921";
+.icon-star:before {
+  content: "\e923";
 }

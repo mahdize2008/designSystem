@@ -9,13 +9,6 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    screens: {
-      'sm': '576px',
-      'md': '768px',
-      'lg': '992px',
-      'xl': '1200px',
-      '2xl': '1312px',
-    },
     borderWidth: {
       DEFAULT: '1px',
       '0': '0',
@@ -25,10 +18,6 @@ module.exports = {
       '6': '6px',
       '8': '8px',
     },
-    container: {
-      padding: '1rem',
-      center: true,
-    },
     colors: {
       white: '#ffffff',
       transparent: 'transparent',
@@ -37,26 +26,29 @@ module.exports = {
 
 
 
-      primary: '#01875f',
+      primary: '#fe6446',
       'primary-dark': '#056449',
       // 'primary-lighter': '#5f6368',
 
-      secondary:'#98d4e9',
-      brown:'#c8968f',
+      secondary:'#fffaea',
       
-      dark: '#202124',
-      'dark-alpha': '#5f6368',
-      'dark-beta': '#98a5ac',
-      'dark-tetha':'#3c4043',
-      darker:'#17212f',
-      'darker-beta':'#181818',
+      dark: 'rgb(23, 23, 23)',
+      'dark-alpha': 'rgb(76, 76, 76)',
+      'dark-beta': 'rgb(128, 128, 128)',
+      // 'dark-tetha':'#3c4043',
+      darker:'rgb(33, 33, 33)',
+      // 'darker-beta':'#181818',
+
+      natural:'rgb(179, 179, 179)',
+      'natural-alpha':'rgb(111, 111, 111)',
+
 
       // 'dark-tetha': '#121212',
       // 'dark-gamma': '#1c1c1c',
       // 'primary-dark': '#201e1b',
 
 
-      // light: '#747474',
+      lighter: 'rgb(235, 235, 235)',
       // lighter: '#a2a2a2',
     },
     fontSize: {
@@ -92,6 +84,7 @@ module.exports = {
       thin: '100',
       extralight: '200',
       light: '300',
+      normal: '400',
       medium: '500',
       semibold: '600',
       bold: '700',
@@ -99,10 +92,16 @@ module.exports = {
       black: '800',
       extrablack: '900',
     },
+
+    backgroundImage:{
+
+      'gradient-primary': "linear-gradient(116.63deg, rgb(254, 145, 80) 8.97%, rgb(254, 100, 70) 92.93%)",
+      
+    },
+
     boxShadow: {
-      'xl': '0px 20px 100px 0px rgba(179, 144, 99, 0.3)',
-      'sm':'7.66px 6.428px 100px 0px rgba(0, 0, 0, 0.15)',
-      'navigation':'0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15)'
+      'lighter':"rgba(0, 0, 0, 0.13) 0px 2px 6px",
+      'lighter-alpha':"rgba(0, 0, 0, 0.13) 0px 2px 6px"
     }
     
   },

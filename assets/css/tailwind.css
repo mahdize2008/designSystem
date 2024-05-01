@@ -3,16 +3,13 @@
 @import "generic/font-icon.css";
 
 
-@import "section/navigation.css";
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
     html , body  {
-        @apply font-["googleSans"] overflow-x-hidden text-left;
+        @apply font-["roboto"] overflow-x-hidden text-left;
         direction: ltr;
     }
     body{
@@ -22,6 +19,9 @@
         @apply cursor-pointer;
     }
     .mb-between-section{
-        @apply !mb-11
+        @apply !mb-6
+    }
+    .container{
+        @apply !max-w-full !w-fit
     }
 }
