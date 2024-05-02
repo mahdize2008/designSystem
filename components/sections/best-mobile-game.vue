@@ -20,7 +20,7 @@ let { products } = defineProps({
     <SwiperSlide
       class="!w-[345px]"
       v-for="product of products"
-      :key="product.id"
+      :key="product"
     >
       <NuxtLink :to="'/games/' + id">
         <ImgCard :img="product.img" />

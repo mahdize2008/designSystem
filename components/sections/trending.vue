@@ -20,19 +20,29 @@ let { products } = defineProps({
     <SwiperSlide
       class="!w-[345px]"
       v-for="product of products"
-      :key="product.id"
+      :key="product"
     >
       <NuxtLink :to="'/games/' + id">
-        <ImgCard :img="product.img" :tag="product.description" />
-        <CardSecondary
+        <ImgCard :img="product.img" />
+        <Card
           :title="product.title"
-          :subtitle="product.subtitle"
-          :views="product.views"
+          :logo="product.logo"
+          :point="product.point"
         />
       </NuxtLink>
     </SwiperSlide>
-    <Btn class="prev-best-mobile-game" icon="left-arrow" color="white" design="swiper-left" />
-    <Btn class="next-best-mobile-game" icon="right-arrow" color="white" design="swiper-right" />
+    <Btn
+      class="prev-best-mobile-game"
+      icon="left-arrow"
+      color="white"
+      design="swiper-left"
+    />
+    <Btn
+      class="next-best-mobile-game"
+      icon="right-arrow"
+      color="white"
+      design="swiper-right"
+    />
   </Swiper>
 </template>
 <style>

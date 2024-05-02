@@ -11,16 +11,16 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
 <template>
     <div class="container mb-between-section">
         <HeaderSection title="Find the best mobile games and apps in Aptoide, your favorite app store!" />
-        <LazyBestMobileGame :products="bestMobileProducts" />
+        <SectionsBestMobileGame :products="bestMobileProducts" />
     </div>
     <div class="container mb-between-section">
         <div class="bg-gradient-primary px-6 py-4 rounded-3xl">
             <HeaderSection mode="light" title="Top Downloads" icon="trophy" />
-            <LazyTopDownload :products="topDownoadProducts" />
+            <SectionsTopDownload :products="topDownoadProducts" />
         </div>
     </div>
     <div class="container mb-between-section">
-        <Banners />
+        <SectionsBanners />
     </div>
 
     <div class="container mb-between-section">
@@ -30,7 +30,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyGames :products="games" />
+        <SectionsGames :products="games" />
     </div>
 
     <div class="container mb-between-section">
@@ -40,7 +40,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyApps :products="apps" />
+        <SectionsApps :products="apps" />
     </div>
 
     <div class="container mb-between-section">
@@ -50,7 +50,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyCantStopPlaying :products="cantStopGames" />
+        <SectionsCantStopPlaying :products="cantStopGames" />
     </div>
 
     <div class="container mb-between-section">
@@ -60,7 +60,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyMustHave :products="mustHave" />
+        <SectionsMustHave :products="mustHave" />
     </div>
 
     <div class="container mb-between-section">
@@ -70,7 +70,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyEditorials :products="editorials" />
+        <SectionsEditorials :products="editorials" />
     </div>
 
     <div class="container mb-between-section">
@@ -80,7 +80,7 @@ const { data: editorials } = await useFetch("https://aptoide-b09c5-default-rtdb.
                 MORE
             </NuxtLink>
         </div>
-        <LazyTrending :products="trending" />
+        <SectionsTrending :products="trending" />
     </div>
 </template>
 <style>

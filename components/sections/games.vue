@@ -8,9 +8,9 @@ let { products } = defineProps({
 </script>
 <template>
     <Swiper slides-per-view="auto" class="mt-2 !overflow-visible" :space-between="16">
-        <SwiperSlide class="!w-[112px]" v-for="product of products" :key="product.id">
+        <SwiperSlide class="!w-[136px]" v-for="product of products" :key="product">
             <NuxtLink :to="'/games/'+id">
-                <Card mode="light" design="col" :title="product.title" :logo="product.logo" :point="product.point"/>
+                <Card :title="product.title" size="larg" :logo="product.logo" :point="product.point"/>
             </NuxtLink>
         </SwiperSlide>
     </Swiper>

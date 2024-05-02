@@ -8,7 +8,7 @@ let { products } = defineProps({
 </script>
 <template>
     <Swiper slides-per-view="auto" class="mt-2 !overflow-visible" :space-between="16">
-        <SwiperSlide class="!w-[136px]" v-for="product of products" :key="product.id">
+        <SwiperSlide class="!w-[136px]" v-for="product of products" :key="product">
             <NuxtLink :to="'/apps/'+id">
                 <Card :title="product.title" size="larg" :logo="product.logo" :point="product.point"/>
             </NuxtLink>
